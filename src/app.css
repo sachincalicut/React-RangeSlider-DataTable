@@ -1,0 +1,74 @@
+body {
+  padding: 2em;
+}
+.App {
+  margin-bottom: 60px;
+}
+.title {
+  padding: 2em 1em 4em 1em;
+  text-align: left;
+  margin-bottom: 3em;
+  border-bottom: solid 1px #333;
+}
+.title small {
+  display: block;
+}
+.robohash {
+  margin-top: 6em;
+  text-align: center;
+}
+
+.robohash a {
+  font-size: 0.8em;
+  margin-left: 0.4em;
+  text-decoration: underline;
+}
+
+.title small:nth-child(2) {
+  margin-bottom: 1em;
+}
+.title .firstspan {
+  margin-right: 1em;
+  color: #333;
+  background-color: lime;
+  font-family: "Courier New", Courier, monospace;
+  font: 1.2em bold;
+  position: relative;
+  left: 1em;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  border-radius: 0.15em;
+  box-shadow: 1px 2px 3px #333;
+}
+
+.title .secondspan {
+  padding-left: 4em;
+  border-left: 4px solid green;
+  margin-right: 1em;
+  color: #fff;
+  background-color: #333;
+  font-family: "Courier New", Courier, monospace;
+  font: 1.3em bold;
+  padding: 0.6em;
+  border-radius: 0.2em;
+  box-shadow: 1px 2px 3px #333;
+}
+
+.title ul {
+  list-style: none;
+  float: right;
+  margin-top: -1em;
+  text-align: left;
+  box-shadow: 1px 2px 3px rgb(235, 235, 235);
+}
+.title li {
+  border-bottom: red solid 1px;
+  padding: 0.4em;
+}
+.title a {
+  font: 1.2em bold;
+  color: #333;
+}
+.cellCss {
+  line-height: 4em;
+  word-break: break-all;
+}
